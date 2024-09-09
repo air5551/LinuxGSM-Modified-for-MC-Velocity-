@@ -7,6 +7,8 @@
 	<a href="https://github.com/GameServerManagers/LinuxGSM/blob/main/LICENSE"><img src="https://img.shields.io/github/license/gameservermanagers/LinuxGSM?style=flat-square" alt="MIT License"></a>
 </p>
 
+## This is a personal fork and is not likely to be maintained
+
 [LinuxGSM](https://linuxgsm.com) is the command-line tool for quick, simple deployment and management of Linux dedicated game servers.
 
 ## Hassle-Free Dedicated Game Servers
