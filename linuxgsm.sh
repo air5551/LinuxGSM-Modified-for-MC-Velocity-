@@ -1,6 +1,7 @@
 #!/bin/bash
 # Project: Linux Game Server Managers - LinuxGSM
 # Author: Daniel Gibbs
+# Modified by air5551
 # License: MIT License, see LICENSE.md
 # Purpose: Linux Game Server Management Script
 # Contributors: https://linuxgsm.com/contrib
@@ -52,8 +53,8 @@ userinput2="${2}"
 ## GitHub Branch Select
 # Allows for the use of different function files
 # from a different repo and/or branch.
-[ -n "${LGSM_GITHUBUSER}" ] && githubuser="${LGSM_GITHUBUSER}" || githubuser="GameServerManagers"
-[ -n "${LGSM_GITHUBREPO}" ] && githubrepo="${LGSM_GITHUBREPO}" || githubrepo="LinuxGSM"
+[ -n "${LGSM_GITHUBUSER}" ] && githubuser="${LGSM_GITHUBUSER}" || githubuser="air5551"
+[ -n "${LGSM_GITHUBREPO}" ] && githubrepo="${LGSM_GITHUBREPO}" || githubrepo="LinuxGSM-Modified-for-MC-Velocity-"
 [ -n "${LGSM_GITHUBBRANCH}" ] && githubbranch="${LGSM_GITHUBBRANCH}" || githubbranch="master"
 
 # Check that curl is installed before doing anything
